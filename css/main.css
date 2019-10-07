@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: 'Bevan', sans-serif;
+  line-height: 1.5;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.cards {
+  padding: .6em;
+  margin: .3em;
+}
+
+.cards body {
+  display: inline-block;
+  paddings: .5em .75em;
+}
+
+ul
