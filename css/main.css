@@ -17,12 +17,12 @@ h1 {
 
 }
 
-.cards {
+.Horizontal navigation {
   padding: .6em;
   margin: .3em;
 }
 
-.cards body {
+.Horizontal navigation body {
   display: inline-block;
   paddings: .5em .75em;
 }
