@@ -1,9 +1,8 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: 'Bevan', sans-serif;
   line-height: 1.5;
-
+  font-family: 'Bevan', sans-serif;
 }
 
 *, *::before, *::after {
@@ -14,17 +13,32 @@ h1 {
   color: #fff;
   text-align: center;
   font-weight: bold;
-
+  font-size: 3rem;
+  font-family: 'Bevan';
 }
 
-.Horizontal navigation {
+body {
   padding: .6em;
-  margin: .3em;
+  margin: 0;
 }
 
-.Horizontal navigation body {
+.topaz li {
   display: inline-block;
-  paddings: .5em .75em;
+  padding: .5em .75em;
+  background-color: #713837;
+  border-radius: 4px;
+  color: #fff;
 }
 
-ul
+.topaz li:hover {
+  background-color: #f33;
+}
+
+.topaz {
+  margin: 0;
+  padding: .6em;
+  list-style-type: none;
+  text-align: center;
+  background-color: #79756f;
+  border: 3px solid #595652;
+}
