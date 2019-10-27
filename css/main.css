@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #dbd6cf;
   line-height: 1.5;
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, sans-serif;
 }
 
 *, *::before, *::after {
@@ -14,7 +14,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-size: 3rem;
-  font-family: "Bevan";
+  font-family: Bevan, serif;
 }
 
 body {
@@ -28,7 +28,6 @@ body {
   background-color: #713837;
   border-radius: 4px;
   color: #fff;
-
 }
 
 .topaz li:hover {
