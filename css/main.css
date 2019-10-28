@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  line-height: 1.5;
+  line-height: 1;
   font-family: Bevan, sans-serif;
 }
 
@@ -13,21 +13,22 @@ h1 {
   color: #fff;
   text-align: center;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 1rem;
   font-family: Bevan, serif;
 }
 
 body {
-  padding: .6em;
+  padding: .5em;
   margin: 0;
 }
 
 .topaz li {
   display: inline-block;
-  padding: .5em .75em;
+  padding: .5em;
   background-color: #713837;
-  border-radius: 4px;
+  border-radius: 2px;
   color: #fff;
+  font-family: sans-serif;
 }
 
 .topaz li:hover {
@@ -36,9 +37,22 @@ body {
 
 .topaz {
   margin: 0;
-  padding: .6em;
   list-style-type: none;
   text-align: center;
   background-color: #79756f;
   border: 3px solid #595652;
+}
+
+.topaz a {
+  display: inline-block;
+  padding: .5em;
+  background-color: #713837;
+  border-radius: 2px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.topaz a:hover {
+  background-color: #f33;
+  width: 1px;
 }
